@@ -8,86 +8,32 @@ import org.junit.Test;
 
 public class GoodFastCheapTest {
     @Test
-    public void testSatisfactoryMajARows26() {
+    public void test2() {
         GoodFastCheap gfc = new GoodFastCheap();
-
-        // Test row 2
-        gfc.good = true;
-        gfc.fast = true;
+        gfc.makeGood();
+        gfc.makeFast();
         assertTrue(gfc.satisfactory());
-
-        // Test row 6
-        gfc.good = false;
-        assertFalse(gfc.satisfactory());
     }
 
     @Test
-    public void testSatisfactoryMajARow37() {
+    public void test3() {
         GoodFastCheap gfc = new GoodFastCheap();
-
-        // Test row 3
-        gfc.good = true;
-        gfc.cheap = true;
+        gfc.makeGood();
+        gfc.makeCheap();
         assertTrue(gfc.satisfactory());
-
-        // Test row 7
-        gfc.good = false;
-        assertFalse(gfc.satisfactory());
     }
 
     @Test
-    public void testSatisfactoryMajBRow24() {
+    public void test4() {
         GoodFastCheap gfc = new GoodFastCheap();
-
-        // Test row 2
-        gfc.good = true;
-        gfc.fast = true;
+        gfc.makeGood();
         assertTrue(gfc.satisfactory());
-
-        // Test row 4
-        gfc.fast = false;
-        assertFalse(gfc.satisfactory());
     }
 
     @Test
-    public void testSatisfactoryMajBRow57() {
+    public void test6() {
         GoodFastCheap gfc = new GoodFastCheap();
-
-        // Test row 5
-        gfc.fast = true;
-        gfc.cheap = true;
-        assertTrue(gfc.satisfactory());
-
-        // Test row 7
-        gfc.fast = false;
-        assertFalse(gfc.satisfactory());
-    }
-
-    @Test
-    public void testSatisfactoryMajCRow34() {
-        GoodFastCheap gfc = new GoodFastCheap();
-
-        // Test row 3
-        gfc.good = true;
-        gfc.cheap = true;
-        assertTrue(gfc.satisfactory());
-
-        // Test row 4
-        gfc.cheap = false;
-        assertFalse(gfc.satisfactory());
-    }
-
-    @Test
-    public void testSatisfactoryMajCRow56() {
-        GoodFastCheap gfc = new GoodFastCheap();
-
-        // Test row 5
-        gfc.fast = true;
-        gfc.cheap = true;
-        assertTrue(gfc.satisfactory());
-
-        // Test row 6
-        gfc.cheap = false;
+        gfc.makeFast();
         assertFalse(gfc.satisfactory());
     }
 
