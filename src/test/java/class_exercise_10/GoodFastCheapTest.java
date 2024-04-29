@@ -27,7 +27,7 @@ public class GoodFastCheapTest {
     public void test4() {
         GoodFastCheap gfc = new GoodFastCheap();
         gfc.makeGood();
-        assertTrue(gfc.satisfactory());
+        assertFalse(gfc.satisfactory());
     }
 
     @Test
