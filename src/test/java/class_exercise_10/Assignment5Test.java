@@ -48,4 +48,24 @@ public class Assignment5Test {
         Assignment5.checkIt(false, true, true);
         assertEquals("P is false\n", outContent.toString());
     }
+
+    @Test
+    public void testTwoPredP1Tr1P2Tr2() {
+        assertEquals("A", Assignment5.twoPred(0, 1));
+    }
+
+    @Test
+    public void testTwoPredP1Tr2() {
+        assertEquals("B", Assignment5.twoPred(1, 0));
+    }
+
+    @Test
+    public void testTwoPredP2Tr1() {
+        assertEquals("A", Assignment5.twoPred(4, 6));
+    }
+
+    @Test
+    public void testTwoPredP2Tr3() {
+        assertEquals("B", Assignment5.twoPred(6, 4));
+    }
 }

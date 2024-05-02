@@ -8,7 +8,7 @@ public class Assignment5 {
             System.out.println("P is false");
     }
 
-    public String twoPred(int x, int y) {
+    public static String twoPred(int x, int y) {
         boolean z;
 
         if (x < y)
