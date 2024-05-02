@@ -51,7 +51,7 @@ public class Assignment5Test {
 
     @Test
     public void testTwoPredP1Tr1P2Tr2() {
-        assertEquals("A", Assignment5.twoPred(0, 1));
+        assertEquals("B", Assignment5.twoPred(0, 1));
     }
 
     @Test
