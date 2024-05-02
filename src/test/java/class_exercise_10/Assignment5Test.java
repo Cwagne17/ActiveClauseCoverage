@@ -8,8 +8,6 @@ import java.io.PrintStream;
 import org.junit.After;
 import org.junit.Before;
 
-import main.java.class_exercise_10.Assignment5;
-
 import org.junit.Test;
 
 public class Assignment5Test {

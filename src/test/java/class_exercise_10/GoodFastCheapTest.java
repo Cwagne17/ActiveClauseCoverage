@@ -1,8 +1,6 @@
-package test.java.class_exercise_10;
+package class_exercise_10;
 
 import static org.junit.Assert.*;
-
-import main.java.class_exercise_10.GoodFastCheap;
 
 import org.junit.Test;
 

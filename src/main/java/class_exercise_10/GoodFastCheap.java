@@ -1,4 +1,4 @@
-package main.java.class_exercise_10;
+package class_exercise_10;
 
 public final class GoodFastCheap {
 
